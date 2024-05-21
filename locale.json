@@ -1,17 +1,17 @@
 {
     "$meta": {
-        "label": "English (default)",
-        "humanizer_language": "en"
+        "label": "Japanese",
+        "humanizer_language": "ja"
     },
     "restarter": {
-        "start_timeout": "failed to start in time",
-        "crash_detected": "crash detected",
-        "hang_detected": "hang detected",
-        "partial_hang_warn": "Due to a partial hang, this server will restart in 1 minute. Please disconnect now.",
-        "partial_hang_warn_discord": "Due to a partial hang, **%{servername}** will restart in 1 minute.",
-        "schedule_reason": "scheduled restart at %{time}",
-        "schedule_warn": "This server is scheduled to restart in %{smart_count} minute. Please disconnect now. |||| This server is scheduled to restart in %{smart_count} minutes.",
-        "schedule_warn_discord": "**%{servername}** is scheduled to restart in %{smart_count} minute. |||| **%{servername}** is scheduled to restart in %{smart_count} minutes."
+        "start_timeout": "スタートが間に合わなかった",
+        "crash_detected": "クラッシュを検出",
+        "hang_detected": "ハングを検出",
+        "partial_hang_warn": "部分的なハングのため、このサーバーは1分後に再起動します。今すぐ切断してください。",
+        "partial_hang_warn_discord": "部分的なハングのため、 **%{servername}** は1分後に再起動します。",
+        "schedule_reason": "%{time} に再起動予定",
+        "schedule_warn": "このサーバは %{smart_count} 分後に再起動する予定です。今すぐ切断してください。||||  このサーバは %{smart_count} 分後に再起動する予定です。",
+        "schedule_warn_discord": "**%{servername}** は %{smart_count} 分後に再起動する予定です。|||| **%{servername}** は %{smart_count} 分後に再起動する予定です。"
     },
     "ban_messages": {
         "kick_temporary": "(%{author}) You have been banned from this server for \"%{reason}\". Your ban will expire in: %{expiration}.",
