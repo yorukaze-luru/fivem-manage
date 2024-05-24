@@ -14,11 +14,11 @@
         "schedule_warn_discord": "**%{servername}** は %{smart_count} 分後に再起動する予定です。|||| **%{servername}** は %{smart_count} 分後に再起動する予定です。"
     },
     "ban_messages": {
-        "kick_temporary": "(%{author}) You have been banned from this server for \"%{reason}\". Your ban will expire in: %{expiration}.",
-        "kick_permanent": "(%{author}) You have been permanently banned from this server for \"%{reason}\".",
+        "kick_temporary": "(%{author}) あなたはこのサーバーからBANされました。\"%{reason}\".あなたのBANは %{expiration} で終了します。",
+        "kick_permanent": "(%{author}) あなたはこのサーバーから永久追放されました。 \"%{reason}\".",
         "reject": {
-            "title_permanent": "You have been permanently banned from this server.",
-            "title_temporary": "You have been temporarily banned from this server.",
+            "title_permanent": "あなたはこのサーバーから永久追放されました。",
+            "title_temporary": "あなたはこのサーバーから一時的に追放されました。",
             "label_expiration": "Your ban will expire in",
             "label_date": "Ban Date",
             "label_author": "Banned by",
