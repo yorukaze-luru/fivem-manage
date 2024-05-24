@@ -25,33 +25,33 @@
             "label_reason": "BAN理由",
             "label_id": "BAN　ID",
             "note_multiple_bans": "注意：あなたのIDには、アクティブな禁止事項が複数あります。",
-            "note_diff_license": "注意：上記の禁止令は別の<code>ライセンス</code>に対して適用されたもので、あなたのID/HWIDの一部がその禁止令に関連するものと一致することを意味します。"
+            "note_diff_license": "注意：上記の禁止令は別の <code>ライセンス</code> に対して適用されたもので、あなたのID/HWIDの一部がその禁止令に関連するものと一致することを意味します。"
         }
     },
     "whitelist_messages": {
         "admin_only": {
-            "mode_title": "This server is in <strong>Admin-only</strong> mode.",
-            "insufficient_ids": "You do not have <code>discord</code> or <code>fivem</code> identifiers, and at least one of them is required to validate if you are a txAdmin administrator.",
-            "deny_message": "Your identifiers are not assigned to any txAdmin administrator."
+            "mode_title": "このサーバーは <strong>管理者専用</strong> モードになっています。",
+            "insufficient_ids": " <code>discord</code> や <code>fivem</code> の識別子は持っておらず、txAdmin管理者であるかどうかの検証には、少なくともどちらかの識別子が必要である。",
+            "deny_message": "あなたの識別子はどの txAdmin 管理者にも割り当てられていません。"
         },
         "guild_member": {
-            "mode_title": "This server is in <strong>Discord Guild Member Whitelist</strong> mode.",
-            "insufficient_ids": "You do not have the <code>discord</code> identifier, which is required to validate if you have joined our Discord Guild. Please open the Discord Desktop app and try again (the Web app won't work).",
-            "deny_title": "You are required to join our Discord Guild to connect.",
-            "deny_message": "Please join the guild %{guildname} then try again."
+            "mode_title": "このサーバーは <strong>Discord Guild Member Whitelist</strong> モードになっています。",
+            "insufficient_ids": "Discordギルドに参加しているかどうかを確認するために必要な <code>discord</code> 識別子がありません。Discordデスクトップアプリを開いて、もう一度お試しください。",
+            "deny_title": "接続にはDiscordギルドへの参加が必要です。",
+            "deny_message": " %{guildname} に参加してからもう一度試してください。"
         },
         "guild_roles": {
-            "mode_title": "This server is in <strong>Discord Role Whitelist</strong> mode.",
-            "insufficient_ids": "You do not have the <code>discord</code> identifier, which is required to validate if you have joined our Discord Guild. Please open the Discord Desktop app and try again (the Web app won't work).",
-            "deny_notmember_title": "You are required to join our Discord Guild to connect.",
-            "deny_notmember_message": "Please join %{guildname}, get one of the required roles, then try again.",
-            "deny_noroles_title": "You do not have a whitelisted role required to join.",
-            "deny_noroles_message": "To join this server you are required to have at least one of the whitelisted roles on the guild %{guildname}."
+            "mode_title": "このサーバーは <strong>Discord Role Whitelist</strong> モードになっています。",
+            "insufficient_ids": "Discordサーバーに参加しているかどうかを確認するために必要な <code>discord</code> 識別子がありません。Discordデスクトップアプリを開いて、もう一度お試しください。",
+            "deny_notmember_title": "接続にはDiscord ギルドに参加する必要があります。",
+            "deny_notmember_message": "%{guildname}に参加して、必要なロールの1つを取得してから、もう一度試してください。",
+            "deny_noroles_title": "参加に必要なホワイトリストに登録されていない。",
+            "deny_noroles_message": "このサーバーに参加するには、ギルド %{guildname}のホワイトリストに登録されているロールのうち少なくとも1つを持っている必要があります。"
         },
         "approved_license": {
-            "mode_title": "This server is in <strong>License Whitelist</strong> mode.",
-            "insufficient_ids": "You do not have the <code>license</code> identifier, which means the server has <code>sv_lan</code> enabled. If you are the server owner, you can disable it in the <code>server.cfg</code> file.",
-            "deny_title": "You are not whitelisted to join this server.",
+            "mode_title": "このサーバーは <strong>License Whitelist</strong> モードです。",
+            "insufficient_ids": "<code>license</code> 識別子がありません, これはサーバが <code>sv_lan</code> を有効にしていることを意味します。あなたがサーバーの所有者であれば、 <code>server.cfg</code> ファイルでこれを無効にすることができます。",
+            "deny_title": "あなたはこのサーバーに参加するためのホワイトリストに登録されていません。",
             "request_id_label": "Request ID"
         }
     },
