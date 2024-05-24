@@ -19,13 +19,13 @@
         "reject": {
             "title_permanent": "あなたはこのサーバーから永久追放されました。",
             "title_temporary": "あなたはこのサーバーから一時的に追放されました。",
-            "label_expiration": "Your ban will expire in",
-            "label_date": "Ban Date",
-            "label_author": "Banned by",
-            "label_reason": "Ban Reason",
-            "label_id": "Ban ID",
-            "note_multiple_bans": "Note: you have more than one active ban on your identifiers.",
-            "note_diff_license": "Note: the ban above was applied for another <code>license</code>, which means some of your IDs/HWIDs match the ones associated with that ban."
+            "label_expiration": "禁止期限は次の通りです。",
+            "label_date": "BAN日",
+            "label_author": "BAN実行者",
+            "label_reason": "BAN理由",
+            "label_id": "BAN　ID",
+            "note_multiple_bans": "注意：あなたのIDには、アクティブな禁止事項が複数あります。",
+            "note_diff_license": "注意：上記の禁止令は別の<code>ライセンス</code>に対して適用されたもので、あなたのID/HWIDの一部がその禁止令に関連するものと一致することを意味します。"
         }
     },
     "whitelist_messages": {
